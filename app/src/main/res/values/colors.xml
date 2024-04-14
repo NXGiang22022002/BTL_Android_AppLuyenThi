@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mauvien">#1E94EF</color>
+    <color name="green">#40D108</color>
+    <color name="blue">#2134F1</color>
+    <color name="cam">#EC6E0D</color>
+    <color name="red">#D50D0D</color>
+    <color name="maunen">#E4BD7A</color>
+    <color name="maunenitem">#6BCC96</color>
+    <color name="vang">#C6CC10</color>
+
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/maunen"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/test_NameCate"
+        android:text="Môn học"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Câu hỏi số "
+            android:gravity="center"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/test_number"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/test_QuesSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/test_Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12:00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp" />
+    <!-- Nội dung của câu hỏi -->
+    <TextView
+        android:id="@+id/test_QuestionContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đây là nội dung của câu hỏi"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Các lựa chọn cho câu hỏi -->
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <Button
+           android:id="@+id/test_btDapan1"
+           android:text="Đáp án 1"
+           android:textColor="@color/black"
+           android:layout_marginTop="5dp"
+           android:background="@drawable/botrondapan"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+       <Button
+           android:id="@+id/test_btDapan2"
+           android:text="Đáp án 2"
+           android:textColor="@color/black"
+           android:layout_marginTop="5dp"
+           android:background="@drawable/botrondapan"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+       <Button
+           android:id="@+id/test_btDapan3"
+           android:text="Đáp án 3"
+           android:textColor="@color/black"
+           android:layout_marginTop="5dp"
+           android:background="@drawable/botrondapan"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+       <Button
+           android:id="@+id/test_btDapan4"
+           android:text="Đáp án 4"
+           android:textColor="@color/black"
+           android:layout_marginTop="5dp"
+           android:background="@drawable/botrondapan"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+   </LinearLayout>
+    <Button
+        android:id="@+id/test_btNext"
+        android:background="@drawable/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Câu hỏi kế tiếp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>

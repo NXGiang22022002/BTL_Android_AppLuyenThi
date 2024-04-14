@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mAddCate"
+        android:title="Thêm Môn học"
+        ></item>
+    <item
+        android:id="@+id/mAddQues"
+        android:title="Thêm câu hỏi"
+        ></item>
+    <item
+        android:id="@+id/mQuanlyBai"
+        android:title="Quản lý bài"
+        ></item>
+    <item
+        android:id="@+id/mQuanlyUser"
+        android:title="Quản lý người dùng"
+        ></item>
+    <item
+        android:id="@+id/mLogOut"
+        android:title="Log Out"
+        ></item>
+</menu>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/maunen"
+    android:layout_height="match_parent"
+    tools:context=".activity.admin.AddCategoryActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Thêm câu hỏi mới"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/add_ques_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/add_ques_content"
+            android:hint="Nhập nội dung câu hỏi"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <RadioGroup
+            android:layout_marginTop="20dp"
+            android:id="@+id/add_ques_radioGroupOptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!-- Lựa chọn 1 -->
+                <RadioButton
+                    android:id="@+id/add_ques_radioOption1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/add_ques_answer1"
+                    android:hint="Nhập lựa chọn thứ 1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!-- Lựa chọn 1 -->
+                <RadioButton
+                    android:id="@+id/add_ques_radioOption2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <EditText
+                    android:id="@+id/add_ques_answer2"
+                    android:hint="Nhập lựa chọn thứ 2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!-- Lựa chọn 1 -->
+                <RadioButton
+                    android:id="@+id/add_ques_radioOption3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <EditText
+                    android:id="@+id/add_ques_answer3"
+                    android:hint="Nhập lựa chọn thứ 3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!-- Lựa chọn 1 -->
+                <RadioButton
+                    android:id="@+id/add_ques_radioOption4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <EditText
+                    android:id="@+id/add_ques_answer4"
+                    android:hint="Nhập lựa chọn thứ 4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </RadioGroup>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/add_ques_btAdd"
+                android:text="Lưu"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/botron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/add_ques_btHuy"
+                android:text="Hủy"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/botron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

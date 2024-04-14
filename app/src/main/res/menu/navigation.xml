@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mHome"
+        android:title="Trang chủ"
+        android:icon="@drawable/ic_home"
+        ></item>
+    <item
+        android:id="@+id/mHistory"
+        android:title="Lịch sử"
+        android:icon="@drawable/ic_history"
+        ></item>
+</menu>
